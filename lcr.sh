@@ -2,7 +2,7 @@
 
 # Loop Command Runner.
 # Runs a given commands in all directories given in input.
-# e.g. ./mcr.sh directory/* "my command"
+# e.g. ./lcr.sh directory/* "my command"
 
 
 GREEN='\033[1;32m'
