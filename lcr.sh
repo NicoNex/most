@@ -10,7 +10,7 @@ NC='\033[0m'
 
 for d in $@; do
 	if [[ -d $d ]]; then
-		( printf "$GREEN  Entering: $d $NC\n" && cd $d && ${!#})
+		( printf "$GREEN  Entering: $d $NC\n" && cd $d && ${!#} )
 	fi
 done
 
